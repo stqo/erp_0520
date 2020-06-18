@@ -15,6 +15,8 @@
     <name>0520ERP</name>
     <description>仓库管理系统</description>
 
+
+    <!-- 在这里定义依赖jar包的版本 在下方使用${}引入版本 -->
     <properties>
         <java.version>1.8</java.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
@@ -23,6 +25,7 @@
         <druid.version>1.1.18</druid.version>
         <log4j.version>1.2.17</log4j.version>
         <hutool.version>4.6.6</hutool.version>
+        <lang3.version>3.9</lang3.version>
     </properties>
 
     <dependencies>
@@ -120,6 +123,13 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.6.2</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${lang3.version}</version>
         </dependency>
 
 

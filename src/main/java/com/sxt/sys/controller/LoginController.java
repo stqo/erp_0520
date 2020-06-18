@@ -15,6 +15,7 @@ import com.sxt.sys.common.WebUtils;
 
 /**
  * 登陆前端控制器
+ * @RestController 想到于 requestbody  controller两个注解合并  requestbody是在本页面显示
  */
 @RestController
 @RequestMapping("login")
